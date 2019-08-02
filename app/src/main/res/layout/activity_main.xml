@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad_bg"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:textAlignment="center"
+            android:text="What is question"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/oprion1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/login_btn1"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:text="Option1"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/oprion2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/login_btn1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="Option2"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:layout_marginTop="2dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/oprion3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/login_btn1"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="Option3"
+                />
+
+            <Button
+                android:id="@+id/oprion4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/login_btn1"
+                android:layout_marginRight="5dp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="Option4"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingRight="5dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="00:00"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
